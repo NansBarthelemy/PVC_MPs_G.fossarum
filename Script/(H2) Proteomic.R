@@ -8,7 +8,7 @@ library(ggsignif)
 library(vegan)
 library(forcats)
 
-setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data/(H2) Proteomic")
+setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data")
 
 
 ###################Global peptides comparison using PERMANOVA (only done on peptides with 100% quantification rate)

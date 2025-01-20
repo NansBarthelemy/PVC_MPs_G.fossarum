@@ -5,7 +5,7 @@ library(dplyr)
 library(forcats)
 library(egg)
 
-setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data/(H1) Mortality")
+setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data")
 data<- read.delim("Mortality_Gammarus.txt")
 View(data)
 data$Size <- fct_relevel(data$Size.Class, c("S", "L", "Control"))

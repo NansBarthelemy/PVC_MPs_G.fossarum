@@ -7,7 +7,7 @@ library(ggplot2)
 library(ggsignif)
 library(forcats)
 
-setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data/(H3) Shredding activities")
+setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data")
 AE_FR<-read.csv("AE_FR.csv", header = T, sep = ";")
 AE_FR$Size <- fct_relevel(AE_FR$Size, c("Small", "Large"))
 AE_FR$Concentration<- fct_relevel(AE_FR$Concentration, c("Control","Low", "High", "Extreme"))

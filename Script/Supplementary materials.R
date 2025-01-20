@@ -6,7 +6,7 @@ library(egg)
 library(car)
 library(forcats)
 
-setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data/Supplementary materials")
+setwd(dir="C:/Users/Nans/Desktop/PVC_MPs_G.fossarum/Data")
 
 Size_Test<-read.csv("Size_Test.csv", header = T, sep = ";")  
 Size_Test$Size.class <- fct_relevel(Size_Test$Size.class, c("20-63", "63-80","80-100","125-160"))
